@@ -1,15 +1,39 @@
 export default function learnPage() {
     return(
-        <div className="bg-purple-300">
-            <div className="bg-orange-300">
-                <img/>
-                <p>Design</p>
+    <div className="bg-white h-screen flex gap-15 justify-center">
+        <div className="bg-purple-300 h-72 w-94 flex flex-col justify-between p-8 rounded-4xl">
+            <div className="flex gap-4">
+                <img src="/palette.svg"/>
+                <p className="text-black">Design</p>
             </div>
             <div>
-                <h1>FIGMA</h1>
-                <p> 8 hours ago</p>
+                <h1 className="text-4xl text-black font-bold">Figma</h1>
+                <p className="text-black"> 8 hours ago</p>
             </div>
         </div>
+
+        <div className="bg-yellow-300 h-72 w-94 flex flex-col justify-between p-8 rounded-4xl">
+            <div className="flex gap-4">
+                <img src="/palette.svg"/>
+                <p className="text-black">Design</p>
+            </div>
+            <div>
+                <h1 className="text-4xl text-black font-bold">Python</h1>
+                <p className="text-black"> 3 days ago</p>
+            </div>
+        </div>
+
+        <div className="bg-green-300 h-72 w-94 flex flex-col justify-between p-8 rounded-4xl">
+            <div className="flex gap-4">
+                <img src="/palette.svg"/>
+                <p className="text-black">Design</p>
+            </div>
+            <div>
+                <h1 className="text-4xl text-black font-bold">Sketch</h1>
+                <p className="text-black"> 5 days ago</p>
+            </div>
+        </div>
+    </div>
     )
 
 }
