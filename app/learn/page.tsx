@@ -1,6 +1,6 @@
 export default function learnPage() {
     return(
-    <div className="bg-white h-screen flex gap-15 justify-center">
+    <div className="bg-white h-screen flex gap-15 justify-center pt-20">
         <div className="bg-purple-300 h-72 w-94 flex flex-col justify-between p-8 rounded-4xl">
             <div className="flex gap-4">
                 <img src="/palette.svg"/>
@@ -30,7 +30,7 @@ export default function learnPage() {
             </div>
             <div>
                 <h1 className="text-4xl text-black font-bold">Sketch</h1>
-                <p className="text-black"> 5 days ago</p>
+                <p className="text-black"> 6 days ago</p>
             </div>
         </div>
     </div>
