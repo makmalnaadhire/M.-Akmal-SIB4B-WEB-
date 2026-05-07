@@ -1,7 +1,7 @@
 export default function holidayPage() {
   return (
     <div className="bg-gray-200 h-screen flex gap-10 justify-center items-center">
-        <div className="bg-white h-screenc h-140 w-80 rounded-4xl shadow-lg">
+        <div className="bg-white h-screenc h-130 w-80 rounded-4xl justify-evenly shadow-lg">
             <div className="flex gap-4 justify-center">
                 <img src="/golden.jpg" className="w-75 h-75 mt-2.5 rounded-3xl"/>
             </div>
@@ -9,11 +9,22 @@ export default function holidayPage() {
                 <h1 className="text-3xl text-black font-bold">San Francisco</h1>
                 <p className="text-black font-medium">Premium Economy</p>
             </div>
-            <div className="flex-col">
-                <div className="flex-row">
+            <div className="mt-4 flex">
+                <div className="ml-6 flex gap-3">
                    <img src="/tag.svg" alt="icon" className="w-6 h-6"/>
-                   <p className="text-black font-medium">from $240</p>
-
+                   <p className="text-black font-bold">from $240</p>
+                </div>
+                <div className="ml-6 flex gap-3">
+                   <img src="/plane.svg" alt="icon" className="w-6 h-6"/>
+                   <p className="text-black font-bold">SFO</p>
+                </div>  
+            </div>
+            <div className="flex justify-between">
+                <div>
+                    <button className="bg-black text-white px-4 py-2">Search Flight</button>
+                    <div>
+                      <img src="/heart.svg" className="w-8 h-8 rounded-full border-2 border-white"/>
+                    </div>
                 </div>
             </div>
         </div>
