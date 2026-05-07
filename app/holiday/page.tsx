@@ -20,10 +20,13 @@ export default function holidayPage() {
                 </div>  
             </div>
             <div className="flex justify-between">
-                <div>
-                    <button className="bg-black text-white px-4 py-2">Search Flight</button>
+                <div className="flex justify-between">
+                    <button className="bg-black text-white px-4 py-2 rounded-3xl">Search Flight
+                    </button>
                     <div>
-                      <img src="/heart.svg" className="w-8 h-8 rounded-full border-2 border-white"/>
+                      <button className="items-center">
+                        <img src="/heart.svg" className="w-8 h-8 rounded-full border-2 border-black"/>
+                      </button>
                     </div>
                 </div>
             </div>
