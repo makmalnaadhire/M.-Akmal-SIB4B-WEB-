@@ -2,8 +2,8 @@ import Nav from "./_components/nav";
 
 export default function NavigationBar() {
     return (
-        <div className="h-screen flex-col flex justify-center">
-            <div className="bg-white justify-center w-65">
+        <div className="h-screen bg-black flex-col justify-center">
+            <div className="bg-white justify-center h-170 w-65 pt-5">
                 <Nav imgSrc="/dashboard.svg" title="Dasboard"/>
                 <Nav imgSrc="/message.svg" title="Messages"/>
                 <Nav imgSrc="/checklist.svg" title="Tasks"/>
@@ -16,6 +16,9 @@ export default function NavigationBar() {
             <div className="flex text-black font-medium">
                 <img src="/chevron.svg"/>
                 <p className="Favorites"></p>
+                <div>
+                    
+                </div>
             </div>
         </div>
     )
